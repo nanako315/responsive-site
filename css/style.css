@@ -1,8 +1,8 @@
 .box{
     margin:10px 19px;
-    padding:20px;
     background-color:#FAF4D0;
     width: 30%;
+    padding-bottom:10px;
 }
 
 .container-2{
@@ -16,10 +16,6 @@
     text-align: center;
 }
 
-img{
-    width: 100%;
-}
-
 header{
     text-align: center;
 }
@@ -27,6 +23,7 @@ header{
 .container{
  display: flex;
  width:100%;
+ margin-top:30px;
 }
 
 @media (max-width: 768px) {
@@ -35,13 +32,13 @@ header{
     width:100%;
     
   }
-  img{
+  .image{
       height:250px;
       width:100%;
   }
   .box{
       text-align:center;
-      width:80%;
+      width:95%;
   }
   
 }
@@ -68,6 +65,8 @@ h3{
 }
 .title {
     font-family: 'Comic Sans MS','Arial Rounded MT Bold',  sans-serif;
+    padding:20px;
+    font-size:40px;
     
 }
 
@@ -88,4 +87,25 @@ h2{
     color:#FAFAF6;
     padding-top:1em;
     font-family: 'Segoe Print','Bradley Hand' sans-serif;
+}
+
+.image{
+    background-image: url("../images/img_hawaii.jpg");
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+}
+
+.point{
+    background-color:#B9E1DC;
+    width:100%;
+    padding:10px 0;
+}
+
+ p{
+    padding:10px 0;
+    font-size:20px;
+    text-align:center;
+    width:100%;
 }
