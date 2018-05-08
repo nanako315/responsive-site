@@ -33,16 +33,24 @@ header{
     
   }
   .image{
-      height:250px;
+      max-height:250px;
       width:100%;
   }
   .box{
       text-align:center;
-      width:95%;
+      width:90%;
   }
   
 }
 
+
+.image{
+    background-image: url("../images/img_hawaii.jpg");
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+}
 .button {
     display: inline-block;
     padding: 0.3em 1em;
@@ -87,14 +95,6 @@ h2{
     color:#FAFAF6;
     padding-top:1em;
     font-family: 'Segoe Print','Bradley Hand' sans-serif;
-}
-
-.image{
-    background-image: url("../images/img_hawaii.jpg");
-  height: 500px;
-  width: 100%;
-  background-size: cover;
-  background-position: center center;
 }
 
 .point{
